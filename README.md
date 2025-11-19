@@ -12,7 +12,7 @@
 
 **Because bookmarking the same resources 47 times across different browsers is not sustainable** 📚
 
-[🎨 Design](#design-resources) • [💻 Web-Dev](#-web-development) • [🛠️ Productivity](#️-productivity) • [📚 Learning](#-learning-hub) • [🚀 Deployment](#-deployment) • [🎮 Fun](#-fun-stuff)
+[🎨 Design](#-design-resources) • [💻 Web-Dev](#-web-development) • [🛠️ Productivity](#️-productivity) • [📚 Learning](#-learning-hub) • [🚀 Deployment](#-deployment) • [🎮 Fun](#-fun-stuff)
 
 </div>
 
