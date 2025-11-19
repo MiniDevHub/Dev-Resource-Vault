@@ -314,8 +314,6 @@ def example():
 
 [Jump to Section](#section-name)
 
-````
-
 #### Emojis
 
 ```markdown
@@ -329,7 +327,7 @@ Use emojis consistently:
 - 🚀 for deployment/launch
 - 🔧 for tools/utilities
 - 📚 for learning/docs
-````
+```
 
 #### Resource Entries
 
