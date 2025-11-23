@@ -142,7 +142,7 @@ Everything you need to build modern web applications:
 
 Boost your productivity 10x with these tools and shortcuts:
 
-- **[Terminal Commands](./🛠️%20Productivity/Terminal-Commands.md)** - macOS terminal mastery
+- **[Terminal Commands](./🛠️%20Productivity/MacOS-Terminal-Commands.md)** - macOS terminal mastery
 
   - Essential macOS commands
   - File system operations
