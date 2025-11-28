@@ -9,7 +9,7 @@
 
 ### **💡 Looking for a complete VSCode configuration?**
 
-### Check out my [Custom-Code-Styles](https://github.com/MiniDevHub/Custom-Code-Styles.git) repository for my personal setup including settings, keybindings, snippets, and themes!
+### Check out my [Custom-Code-Styles](https://github.com/MiniDevHub/Custom-Code-Styles) repository for my personal setup including settings, keybindings, snippets, and themes!
 
 ---
 
@@ -317,7 +317,7 @@
 
 </div>
 
-**🔗 Full Configuration**: See my [Custom-Code-Styles](https://github.com/yourusername/Custom-Code-Styles) repository for:
+**🔗 Full Configuration**: See my [Custom-Code-Styles](https://github.com/MiniDevHub/Custom-Code-Styles) repository for:
 
 - Complete `settings.json`
 - Custom keybindings
@@ -358,7 +358,7 @@ A: Use Settings Sync (built-in) or my Custom-Code-Styles repo.
 
 ### 🚀 Ready to supercharge your VSCode?
 
-Check out my complete setup: [Custom-Code-Styles](https://github.com/yourusername/Custom-Code-Styles)
+Check out my complete setup: [Custom-Code-Styles](https://github.com/MiniDevHub/Custom-Code-Styles)
 
 **Happy Coding!** 💻
 
