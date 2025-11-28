@@ -658,7 +658,7 @@ _Last Updated: November 2025 | Version 1.0 - The Beginning of Something Awesome!
 [⭐ Star this repo](https://github.com/MiniDevHub/Dev-Resource-Vault) • [🐛 Report Issue](https://github.com/MiniDevHub/Dev-Resource-Vault/issues) • [💡 Request Feature](hhttps://github.com/MiniDevHub/Dev-Resource-Vault/issues) • [🤝 Contribute](./CONTRIBUTING.md)
 
 ```
-      ____             ____                                _    __            ____
+     ____             ____                                 _    __            ____
      / __ \___  _   __/ __ \___  _________  __  ___________| |  / /___ ___  __/ / /_
     / / / / _ \| | / / /_/ / _ \/ ___/ __ \/ / / / ___/ ___/ | / / __ `/ / / / / __/
  / /_/ /  __/| |/ / _, _/  __(__  ) /_/ / /_/ / /  / /__ | |/ / /_/ / /_/ / / /_
