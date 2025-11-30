@@ -45,11 +45,11 @@ Think of it as your **developer's treasure chest** 💎 - everything from color 
 | ----------------------- | ------------ | -------------------- | ----------------- | ----------- |
 | 🎨 **Design Resources** | 5 files      | 150+ tools           | ~15,000           | ✅ Complete |
 | 💻 **Web Development**  | 4 files      | 200+ libraries       | ~18,000           | ✅ Complete |
-| 🛠️ **Productivity**     | 5 files      | 100+ tools           | ~12,000           | ✅ Complete |
+| 🛠️ **Productivity**     | 6 files      | 125+ tools           | ~32,000           | ✅ Complete |
 | 📚 **Learning Hub**     | 4 files      | 80+ platforms        | ~8,000            | ✅ Complete |
 | 🚀 **Deployment**       | 4 files      | 50+ services         | ~10,000           | ✅ Complete |
 | 🎮 **Fun Stuff**        | 3 files      | 60+ games            | ~6,000            | ✅ Complete |
-| **TOTAL**               | **25 files** | **1,000+ resources** | **~70,000 words** | 🎉          |
+| **TOTAL**               | **26 files** | **1,000+ resources** | **~90,000 words** | 🎉          |
 
 </div>
 
@@ -69,9 +69,8 @@ Transform your designs from "meh" to "wow!" with these resources:
 
   - Background generators, SVG patterns, mesh gradients
   - Comprehensive UI component libraries
-  - Animation libraries (GSAP, Framer Motion, Lottie)
-  - State management solutions (Zustand, Jotai, Redux)
-  - 18,000+ words of pure frontend gold!
+  - 3D assets and illustrations
+  - Design systems and Figma resources
 
 - **[Color Tools](./🎨%20Design-Resources/Color-Tools.md)** - Palettes, generators, accessibility checkers
 
@@ -142,7 +141,7 @@ Everything you need to build modern web applications:
 
 Boost your productivity 10x with these tools and shortcuts:
 
-- **[Terminal Commands](./🛠️%20Productivity/MacOS-Terminal-Commands.md)** - macOS terminal mastery
+- **[MacOS Terminal Commands](./🛠️%20Productivity/MacOS-Terminal-Commands.md)** - macOS terminal mastery
 
   - Essential macOS commands
   - File system operations
@@ -174,10 +173,23 @@ Boost your productivity 10x with these tools and shortcuts:
   - macOS productivity apps
 
 - **[Automation Scripts](./🛠️%20Productivity/Automation-Scripts.md)** - Automate repetitive tasks
+
   - Bash/Zsh automation
   - Python automation scripts
   - Node.js CLI tools
   - GitHub Actions templates
+
+- **[CLI Tools](./🛠️%20Productivity/CLI-Tools.md)** - Modern command-line tools ⭐ NEW!
+  - **Navigation**: `zoxide` (smart cd), `fzf` (fuzzy finder)
+  - **Search**: `ripgrep` (grep), `fd` (find)
+  - **Terminal**: `tmux` (multiplexer), `yazi` (file manager)
+  - **Data**: `jq` (JSON processor)
+  - **DevOps**: `gh` (GitHub CLI), `doppler` (secrets)
+  - **Security**: `pass` (password manager)
+  - **Utilities**: `stow`, `tldr`, `eza`, `bat`
+  - **Monitoring**: `htop`, `bottom`, `glances`, `dust`, `duf`
+  - **Network**: `httpie`, `dog`, `bandwhich`
+  - **Plus**: 25+ tools, 20,000+ words, complete setup scripts
 
 ---
 
@@ -292,6 +304,45 @@ Because developers need fun too!
 
 <div align="center">
 
+## 🚀 CLI Tools Spotlight
+
+</div>
+
+### Modern Terminal Tools That Will Change Your Life
+
+**[→ Complete CLI Tools Guide](./🛠️%20Productivity/CLI-Tools.md)** - 20,000+ words of pure CLI goodness!
+
+Replace slow, outdated Unix tools with blazing-fast modern alternatives:
+
+```bash
+# Traditional → Modern
+cat     →  bat      # Syntax highlighting + Git integration
+ls      →  eza      # Colors, icons, Git status
+cd      →  zoxide   # Smart jumping with frecency
+find    →  fd       # 9x faster, intuitive syntax
+grep    →  ripgrep  # 5-10x faster, respects .gitignore
+du      →  dust     # Visual tree output
+df      →  duf      # Beautiful disk usage
+top     →  btm      # Modern system monitor
+curl    →  httpie   # Human-friendly HTTP
+dig     →  dog      # Modern DNS queries
+```
+
+**25+ tools covered** including:
+
+- 🗂️ File managers (`yazi`)
+- 🔐 Security tools (`pass`, `doppler`)
+- 🐙 DevOps (`gh`, `docker`)
+- 📊 Monitoring (`htop`, `glances`, `bandwhich`)
+- 🎨 Pretty output (`glow`, `delta`, `lolcat`)
+- ⚡ Shell enhancement (`starship`, `atuin`, `thefuck`)
+
+**Includes**: Installation guides • Configuration examples • Complete setup scripts • Power user tips
+
+---
+
+<div align="center">
+
 ## ⚡ Quick Command Reference
 
 </div>
@@ -317,9 +368,13 @@ alias nrd='npm run dev'
 alias nrb='npm run build'
 alias nrt='npm run test'
 
+# Modern CLI tools
+alias cat='bat --paging=never'
+alias ls='eza --icons'
+alias ll='eza -lh --icons --git'
+alias z='zoxide'
+
 # Utilities
-alias ll='ls -alF'
-alias c='clear'
 alias killport='lsof -ti:$1 | xargs kill -9'
 ```
 
@@ -338,44 +393,45 @@ DevResourceVault/
 │   ├── Visual_Goodies.md           → Backgrounds, UI components, animations
 │   ├── Color_Tools.md              → Palette generators, accessibility
 │   ├── Icon_Libraries.md           → Free & premium icons
-│   ├── Typography_Resources.md    → Fonts, pairing, type systems
-│   └── Design_Inspiration.md      → Galleries, showcases, patterns
+│   ├── Typography_Resources.md     → Fonts, pairing, type systems
+│   └── Design_Inspiration.md       → Galleries, showcases, patterns
 │
 ├── 💻 Web_Dev/
-│   ├── Frontend_Libraries.md      → React, Vue, component libraries
-│   ├── CSS_Frameworks.md          → Tailwind, Bootstrap, utility CSS
-│   ├── Animation_Tools.md         → GSAP, Framer Motion, CSS animations
-│   ├── API_Resources.md           → REST, GraphQL, testing
-│   └── Testing_Tools.md           → Jest, Cypress, Playwright
+│   ├── Frontend_Libraries.md       → React, Vue, component libraries
+│   ├── CSS_Frameworks.md           → Tailwind, Bootstrap, utility CSS
+│   ├── Animation_Tools.md          → GSAP, Framer Motion, CSS animations
+│   ├── API_Resources.md            → REST, GraphQL, testing
+│   └── Testing_Tools.md            → Jest, Cypress, Playwright
 │
 ├── 🛠️ Productivity/
-│   ├── Terminal_Commands.md       → macOS terminal mastery
-│   ├── VSCode_Setup.md            → Extensions, settings, tips
-│   ├── Git_Mastery.md             → Advanced Git workflows
-│   ├── Dev_Tools.md               → Essential utilities
-│   └── Automation_Scripts.md     → Scripts & workflow automation
+│   ├── MacOS_Terminal_Commands.md  → macOS terminal mastery
+│   ├── VSCode_Setup.md             → Extensions, settings, tips
+│   ├── Git_Mastery.md              → Advanced Git workflows
+│   ├── Dev_Tools.md                → Essential utilities
+│   ├── Automation_Scripts.md       → Scripts & workflow automation
+│   └── CLI-Tools.md                → Modern CLI tools (NEW! ⭐)
 │
 ├── 📚 Learning_Hub/
-│   ├── Tutorial_Platforms.md      → freeCodeCamp, Udemy, etc.
-│   ├── Documentation_Links.md     → Official docs & references
-│   ├── YouTube_Channels.md        → Video tutorials
-│   └── Books_Articles.md          → Must-read materials
+│   ├── Tutorial_Platforms.md       → freeCodeCamp, Udemy, etc.
+│   ├── Documentation_Links.md      → Official docs & references
+│   ├── YouTube_Channels.md         → Video tutorials
+│   └── Books_Articles.md           → Must-read materials
 │
 ├── 🚀 Deployment/
-│   ├── Hosting_Platforms.md       → Vercel, Netlify, Railway
-│   ├── CI_CD_Tools.md             → GitHub Actions, pipelines
-│   ├── Docker_Resources.md        → Containerization guides
-│   └── Cloud_Services.md          → AWS, GCP, Azure
+│   ├── Hosting_Platforms.md        → Vercel, Netlify, Railway
+│   ├── CI_CD_Tools.md              → GitHub Actions, pipelines
+│   ├── Docker_Resources.md         → Containerization guides
+│   └── Cloud_Services.md           → AWS, GCP, Azure
 │
 ├── 🎮 Fun_Stuff/
-│   ├── Developer_Games.md         → Learn by playing
-│   ├── Coding_Challenges.md       → LeetCode, HackerRank
-│   └── Easter_Eggs.md             → Hidden gems & humor
+│   ├── Developer_Games.md          → Learn by playing
+│   ├── Coding_Challenges.md        → LeetCode, HackerRank
+│   └── Easter_Eggs.md              → Hidden gems & humor
 │
-├── README.md                      → You are here! 👋
-├── CONTRIBUTING.md                → How to contribute
-├── LICENSE                        → MIT License
-└── .gitignore                     → Git exclusions
+├── README.md                       → You are here! 👋
+├── CONTRIBUTING.md                 → How to contribute
+├── LICENSE                         → MIT License
+└── .gitignore                      → Git exclusions
 ```
 
 ---
@@ -430,6 +486,7 @@ DevResourceVault/
 - 💻 **VSCode**: My [Custom-Code-Styles](https://github.com/MiniDevHub/Custom-Code-Styles) setup
 - 🌲 **Git**: [GitKraken](https://gitkraken.com) • [Learn Git Branching](https://learngitbranching.js.org)
 - 🔧 **Tools**: [Rectangle](https://rectangleapp.com) • [Raycast](https://raycast.com) • [Alfred](https://alfredapp.com)
+- ⚡ **CLI**: [Complete CLI Tools Guide](./🛠️%20Productivity/CLI-Tools.md) - 25+ modern tools!
 
 ---
 
@@ -495,21 +552,22 @@ DevResourceVault/
 1. **Browse by Category** - Click on any category above to explore
 2. **Search for What You Need** - Use GitHub's search or Cmd/Ctrl+F
 3. **Bookmark Your Favorites** - Star this repo for easy access
-4. **Contribute** - Found something awesome? Add it! See [CONTRIBUTING.md](./Contributing.md)
+4. **Contribute** - Found something awesome? Add it! See [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ### For Developers Setting Up
 
 **New to web dev?** Start here:
 
-1. [Tutorial Platforms](./Learning_Hub/Tutorial_Platforms.md) - Learn the basics
-2. [Frontend Libraries](./Web_Dev/Frontend_Libraries.md) - Choose your stack
-3. [Hosting Platforms](./Deployment/Hosting_Platforms.md) - Deploy your first app
+1. [Tutorial Platforms](./📚%20Learning-Hub/Tutorial-Platforms.md) - Learn the basics
+2. [Frontend Libraries](./💻%20Web-Dev/Frontend-Libraries.md) - Choose your stack
+3. [Hosting Platforms](./🚀%20Deployment/Hosting-Platforms.md) - Deploy your first app
 
 **Experienced dev?** You'll love:
 
-1. [Advanced Git](./Productivity/Git-Mastery.md) - Level up your Git skills
-2. [Automation Scripts](./Productivity/Automation-Scripts.md) - Save hours of work
-3. [CI/CD Tools](./Deployment/CI_CD-Tools.md) - Automate deployments
+1. [Advanced Git](./🛠️%20Productivity/Git-Mastery.md) - Level up your Git skills
+2. [CLI Tools](./🛠️%20Productivity/CLI-Tools.md) - Modern terminal superpowers
+3. [Automation Scripts](./🛠️%20Productivity/Automation-Scripts.md) - Save hours of work
+4. [CI/CD Tools](./🚀%20Deployment/CI_CD-Tools.md) - Automate deployments
 
 ---
 
@@ -521,7 +579,7 @@ DevResourceVault/
 
 Found an awesome resource that's missing? Want to improve the content? **Contributions are welcome!**
 
-Check out [CONTRIBUTING.md](./Contributing.md) for guidelines.
+Check out [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 
 ### How to Contribute
 
@@ -592,8 +650,9 @@ Every resource in this vault meets these standards:
 
 - 🚀 **DevResourceVault** (this repo) - Ultimate resource collection
   - 1,000+ curated tools & resources
-  - 25 comprehensive guides
-  - 70,000+ words of content
+  - 26 comprehensive guides
+  - 90,000+ words of content
+  - 25+ modern CLI tools covered
 
 ---
 
@@ -621,9 +680,10 @@ Every resource in this vault meets these standards:
 **Quick Stats:**
 
 - 📦 1,000+ curated resources
-- 🗂️ 25 comprehensive markdown files
-- 📝 70,000+ words of content
+- 🗂️ 26 comprehensive markdown files
+- 📝 90,000+ words of content
 - 🎨 6 major categories
+- ⚡ 25+ CLI tools covered
 - ☕ Infinite cups of coffee consumed
 - 💚 100% made with love
 
@@ -651,23 +711,23 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Made with 💚, ☕, and an unhealthy obsession with collecting developer resources by **MrDib**
 
-_Last Updated: November 2025 | Version 1.0 - The Beginning of Something Awesome!_
+_Last Updated: November 2025 | Version 2.0 - Now with CLI Tools!_
 
 ---
 
-[⭐ Star this repo](https://github.com/MiniDevHub/Dev-Resource-Vault) • [🐛 Report Issue](https://github.com/MiniDevHub/Dev-Resource-Vault/issues) • [💡 Request Feature](hhttps://github.com/MiniDevHub/Dev-Resource-Vault/issues) • [🤝 Contribute](./CONTRIBUTING.md)
+[⭐ Star this repo](https://github.com/MiniDevHub/Dev-Resource-Vault) • [🐛 Report Issue](https://github.com/MiniDevHub/Dev-Resource-Vault/issues) • [💡 Request Feature](https://github.com/MiniDevHub/Dev-Resource-Vault/issues) • [🤝 Contribute](./CONTRIBUTING.md)
 
 ```
-     ____             ____                                 _    __            ____
-     / __ \___  _   __/ __ \___  _________  __  ___________| |  / /___ ___  __/ / /_
-    / / / / _ \| | / / /_/ / _ \/ ___/ __ \/ / / / ___/ ___/ | / / __ `/ / / / / __/
- / /_/ /  __/| |/ / _, _/  __(__  ) /_/ / /_/ / /  / /__ | |/ / /_/ / /_/ / / /_
-/_____/\___/ |___/_/ |_|\___/____/\____/\__,_/_/   \___/ |___/\__,_/\__,_/_/\__/
+       ____             ____                                 _    __            ____
+       / __ \___  _   __/ __ \___  _________  __  ___________| |  / /___ ___  __/ / /_
+      / / / / _ \| | / / /_/ / _ \/ ___/ __ \/ / / / ___/ ___/ | / / __ `/ / / / / __/
+   / /_/ /  __/| |/ / _, _/  __(__  ) /_/ / /_/ / /  / /__ | |/ / /_/ / /_/ / / /_
+  /_____/\___/ |___/_/ |_|\___/____/\____/\__,_/_/   \___/ |___/\__,_/\__,_/_/\__/
 
     ╔═══════════════════════════════════════════════════════════════╗
     ║  🚀 Your Ultimate Developer Resource Collection 🚀            ║
     ║                                                               ║
-    ║   📦 1,000+ Resources | 🗂️ 25 Files | 📝 70,000+ Words        ║
+    ║   📦 1,000+ Resources | 🗂️ 26 Files | 📝 90,000+ Words        ║
     ╚═══════════════════════════════════════════════════════════════╝
 ```
 
