@@ -164,6 +164,12 @@ Boost your productivity 10x with these tools and shortcuts:
   - Emergency commands
   - Git aliases
 
+- **[Neovim.md](./🛠️%20Productivity/Neovim.md)** - The Ultimate Neovim Guide
+
+  - Comprehensive Neovim walkthrough
+  - Modes, editing, macros, plugins
+  - Configuration tips and starter setup
+
 - **[Dev Tools](./🛠️%20Productivity/Dev-Tools.md)** - Essential developer utilities
 
   - Code editors & IDEs
@@ -408,6 +414,7 @@ DevResourceVault/
 │   ├── VSCode_Setup.md             → Extensions, settings, tips
 │   ├── Git_Mastery.md              → Advanced Git workflows
 │   ├── Dev_Tools.md                → Essential utilities
+│   ├── Neovim.md                   → The Ultimate Neovim Guide
 │   ├── Automation_Scripts.md       → Scripts & workflow automation
 │   └── CLI-Tools.md                → Modern CLI tools (NEW! ⭐)
 │
