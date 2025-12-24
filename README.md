@@ -253,8 +253,6 @@ Dev-Resource-Vault/
 
 ## 🎯 Quick Access - Most Popular Resources
 
-</div>
-
 ### Top Resources by Category 🌟
 
 | Category         | Resource                                    | What It Does            | Why It's Essential               |
@@ -273,6 +271,8 @@ Dev-Resource-Vault/
 | 🔒 **Security**  | [OWASP](https://owasp.org)                  | Security knowledge      | Web security standards           |
 | 🤖 **AI**        | [OpenAI](https://openai.com)                | AI APIs                 | GPT, DALL-E, Whisper             |
 | 💬 **Community** | [Stack Overflow](https://stackoverflow.com) | Developer Q&A           | Largest dev community            |
+
+</div>
 
 ---
 
