@@ -814,9 +814,9 @@ If you found this repository valuable:
 
 ### Find Me
 
-- 🐙 **GitHub**: [@MrDib](https://github.com/MrDib) (or your username)
-- 🐦 **Twitter**: [@MrDib_Dev](https://twitter.com/MrDib_Dev) (if applicable)
-- 💼 **LinkedIn**: [MrDib](https://linkedin.com/in/mrdib) (if applicable)
+- 🐙 **GitHub**: [@MrDib](https://github.com/ThisIsDibakar) (or your username)
+- 🐦 **Twitter**: [@MrDib_Dev](https://x.com/Luxifer_OG) (if applicable)
+- 💼 **LinkedIn**: [MrDib](https://www.linkedin.com/in/dibakar-das-844825276/) (if applicable)
 
 ### Support This Project
 
